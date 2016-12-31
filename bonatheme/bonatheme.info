@@ -8,8 +8,6 @@ description = A responsive theme for compucorp
 stylesheets[all][] = style.css
 ;stylesheets[all][] = stylesheets/colors.css
 ;stylesheets[print][] = stylesheets/print.css
-;stylesheets[all][] = system-menus.css
-
 
 
 regions[header] = Header

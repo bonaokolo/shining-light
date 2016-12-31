@@ -9,16 +9,17 @@
     <?php endif; ?>
 
   </div>
+  
+   <div id="banner_wrapper">
 
-    <div id="banner_wrapper">
-/*
       <?php if ($banner): ?>
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="banner">
             <img src="<?php print $banner; ?>" alt="<?php print t('Home'); ?>" />
           </a>
         <?php endif; ?>
     </div>
-*/
+
+
   <div id="header"><?php print render($page['header']); ?><h1></h1></div>
 
 

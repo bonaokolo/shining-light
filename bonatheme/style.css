@@ -3,6 +3,7 @@
 html { overflow-y: scroll;} /* Prevent page-shift to right when little or no content. */
 body { font-family: Arial, sans-serif;
      background-color: #F1F2F5;
+     
 	
 
 } /* Change the default font to Arial. Generic sans-serif will be applied if Arial is not available */
@@ -11,11 +12,11 @@ a { color: #000; outline: none;} /* Remove dotted outline from links (might want
 /*** LAYOUT ***/
 
 /* WRAPPER */
-#wrapper { width: 100%; margin: 0 auto;} /* Make it 1000px wide and center it */
+#wrapper { width: 100%; } /* Make it 1000px wide and center it */
 
 /* NAVIGATION */
 #navigation {width: 100%; height: 80px; border: 0 solid #ccc; border-top: none; background-color: #fff;  padding:0px 0px 0px 0px;} /* Define width, height, border and background color */
- #navigation ul {width: 100%%; margin: 0 auto; list-style: none; line-height: 30px; padding-top : 30px; padding-bottom: 5;} /* list-style removes the dots, line-height centers the links vertically */
+ #navigation ul {width: 100%%; margin: 0 auto; list-style: none; line-height: 30px; padding-top : 30px; padding-bottom: 5; padding-right: 100px;} /* list-style removes the dots, line-height centers the links vertically */
   #navigation ul li{ float: right;  padding-left: 20px; padding-right: 20px; display: block; font-family: Arial; font-weight: bold;} /* Spread the list elements horizontally */
    #navigation ul li a {
 	   text-decoration:none;
@@ -45,6 +46,8 @@ a { color: #000; outline: none;} /* Remove dotted outline from links (might want
             color: #A1D9D8 !important;
 			text-decoration: none;
  }
+ 
+  
 
   #logo {
   float: left; /* LTR */
@@ -53,19 +56,20 @@ a { color: #000; outline: none;} /* Remove dotted outline from links (might want
 
  #banner_wrapper {
 	 margin : 0px;
-	 height: 490px;
+	 height: 450px;
 	 width : 100%;
-	 background-image url("Hero1.png");
+	 background-image:url("Hero1.png");	 
+	 background-repeat: repeat;
  }
   
  #banner {
    
-   width: 100%px; height: 490px;
+   width: 100%px; height: 450px;
  }
 
   #banner img {
 	  
-	  width: 100%; height : 490px;
+	  width: 100%; height : 450px;
   }
   /* HEADER */
   #header { padding: 0px 120px; width: 100%; height: auto; border: 0 solid #ccc; border-top: none; background-color: #eeefff; }
