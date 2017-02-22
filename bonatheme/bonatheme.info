@@ -5,9 +5,12 @@ description = A responsive theme for compucorp
 
 
 ;stylesheets[all][] = stylesheets/layout.css
-stylesheets[all][] = style.css
+;stylesheets[all][] = style.css
 ;stylesheets[all][] = stylesheets/colors.css
 ;stylesheets[print][] = stylesheets/print.css
+;stylesheets[all][] = system-menus.css
+stylesheets[all][] = subzeros/stylesheets/styles.css
+
 
 
 regions[header] = Header
