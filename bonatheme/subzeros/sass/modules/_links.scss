@@ -1,0 +1,38 @@
+.headers-register__para{
+  border-radius: 1px;
+  text-align: center;
+  background-color: $header__link--green;
+  border: 2px solid $header__link--green;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 0;
+  font-weight: bold;
+  color: $color__primary--white;
+  text-decoration: none;
+}
+
+.get-involved__anchor-tags {
+  margin-top: 0;
+  margin-bottom: 2em;
+  padding-top: 1em;
+  a {
+
+  display: inline-block;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  border-radius: 1px;
+  color: $header__link--green;
+  border: 1px solid $header__link--green;
+  font-weight: 500;
+
+ }
+}
+
+
+.headers-register__divs {
+
+}

@@ -1,0 +1,75 @@
+/*colors */
+
+$color__primary--light: #DD0000 !default;
+$color__primary: #C10000 !default;
+$color__primary--dark: #990000 !default;
+$color__primary--white: #FFFFFF !default;
+$color__our-mission: #53C0D6 !default;
+
+$base__font-size: 15;
+$base__line: 20 !default;
+$base__font-color: #B5B5B9 !default;
+$base__para-color: #5E6479 !default;
+$base__font--small: 13 ;
+
+$button-scroll__color--norma: #D9DADD !default;;
+$button-scroll__color--mouseover: #777B84 !default;;
+
+@function calc-em($target, $context: $base__font-size) {
+    @return ($target / $context) * 1em;
+}
+
+@mixin text($size, $line, $margin: 0, $family: $text__family-sans) {
+    font-size: calc-em($size);
+    line-height: ($line/$size);
+    font-family: $family;
+    margin-bottom: calc-em($margin, $size);
+}
+
+
+$text__family-sans:  "MuseoSans 500", Helvetica, Arial, sans-serif !default;
+
+$text__size--alpha: 36 !default;
+$text__size--beta: 30 !default;
+$text__size--gamma: 24 !default;
+
+$text__size--delta: 15 !default;
+$text__size--headers: 26 !default;
+
+$text__line--alpha: 40 !default;
+$text__line--beta: 36 !default;
+$text__line--gamma: 30 !default;
+$text__line--delta: 20 !default;
+
+$text__colour--base: #333333 !default;
+$text__colour--alpha: #990000 !default;
+$text__colour--beta: #990000 !default;
+$text__colour--gamma: #333333 !default;
+$text__colour--delta: #333333 !default;
+$text__colour--event-field: #51586E !default;
+
+
+
+$body__color--bg: #F1F2F5 !default;
+$header__link--green: #5BC0C3 !default;
+$color__primary--black: #000000 !default;
+$color__link-first: #A1D9D8 !default;
+$event-labels__color: #55BCC0 !default;
+$get-involved__link--rect: #51BABF !default;
+$get-involved__text-color: #575E74 !default;
+$color__headers : #535356 !default;
+$color__footer-bg : #454850 !default;
+$color__footer-txt : #959DB6 !default;
+$color__link-footer : #51A4B2 !default;
+$color__hr : #4F535B !default;
+$color__hr-betwwen: #D9DADD !default;
+$color__font-blog--strong: #4AB9BC !default;
+$color__blank-view : #5D5E61 !default;
+
+/* variables for min-widths */
+$device__mobile : max-width 320px;
+$device__mobile--landscape : max-width 530px;
+$device__iPad : max-width 768px;
+$device__medium : max-width 992px;
+$device__others : max-width 1024px;
+$device__inter : max-width 840px;

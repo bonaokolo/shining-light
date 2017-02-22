@@ -1,0 +1,75 @@
+/* NAVIGATION */
+@import "breakpoint";
+
+.links {height: inherit;
+        width: inherit;
+        margin: 0 auto;
+        list-style: none;
+        border: 0 solid #ccc;
+        border-top: none;
+        float: right;
+        padding-right: 100px;
+        background-color: $color__primary--white;
+        line-height: 30px;
+
+        @include breakpoint($device__inter){
+
+            display: table-header-group;
+            margin-left: auto;
+            margin-right: auto;
+            clear: both;
+        }
+                     li{float: right;
+                       padding-left: 10px;
+                       padding-top: 25px;/* list-style removes the dots, line-height centers the links vertically */
+                       padding-bottom: 35px;
+                       padding-right: 20px;
+                       display: inline;
+                       font-family: $text__family-sans;  /* Spread the list elements horizontally */
+
+
+                       @include breakpoint($device__inter){
+                         display: block;
+                         white-space: nowrap;
+                         padding-left: 20px;
+                         padding-top: 5px;
+                         padding-bottom: 5px;
+                         border-radius: 1px;
+                         margin-top: 20px;
+                         margin-left: auto;
+                         margin-right: auto;
+                         margin-bottom: 10px;
+                         text-align: center;
+                         border: 2px solid $color__link-first;
+                       }
+                       a {
+                           font-size:$base__font-size;
+                           color: $color__primary--black;
+                           font-weight: lighter;;
+	                         text-decoration:none;
+                           @include breakpoint($device__inter){
+                              color:$color__link-first !important;
+                           }
+                         }
+                      }
+
+                      li:first-child {
+                           padding-left: 20px;
+                           padding-top: 5px;
+                           padding-bottom: 5px;
+                           border-radius: 1px;
+                           margin-top: 20px;
+                           margin-left: 1em;
+                           margin-bottom: 10px;
+                           text-align: center;
+                           border: 2px solid $color__link-first;
+
+                           a {
+                               color:$color__link-first !important;
+
+                             }
+                     }
+          }
+.flex-control-nav, .flex-control-paging {
+  display: none;
+}

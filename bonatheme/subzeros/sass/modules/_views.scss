@@ -1,0 +1,384 @@
+ @import "breakpoint";
+
+.get-involved-row {
+  @include breakpoint($device__mobile--landscape){
+   display: inline-block;
+   width: 100%;
+  }
+}
+
+.meetup__field--one {
+  max-width: 100%;
+  height: auto;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include breakpoint($device__mobile--landscape){
+   width: 100%;
+  }
+
+
+
+
+}
+.collabo__field--two {
+  max-width: 100%;
+  height: auto;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include breakpoint($device__mobile--landscape){
+   width: 100%;
+  }
+
+
+
+}
+
+.communicate__field--three {
+  max-width: 100%;
+  height: auto;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include breakpoint($device__mobile--landscape){
+   width: 100%;
+  }
+
+
+}
+
+.meetup__img {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: 2.9em;
+}
+
+.collabo__img {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: 2em;
+
+}
+
+.communicate__img{
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: 2em;
+}
+
+
+.view_our2mission {
+  padding-left: 2em;
+  padding-right: 1em;
+}
+
+.our-mission--row {
+  width: 33%;
+  @include breakpoint($device__mobile--landscape){
+   display: block;
+   width: 100%;
+  }
+}
+
+.our-mission__field{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: $body__color--bg;
+}
+
+.our-mission__header3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: $text__family-sans;
+
+}
+
+.our-mission__header4 {
+  text-align: center;
+  font-family: $text__family-sans;
+  font-size: $base__font--small;
+}
+
+
+.our-mission__charities {
+
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 36%;
+  padding: 10px;
+
+
+      h4 {
+        color: $header__link--green;
+        margin-top: -30%;
+
+        @include breakpoint ($device__iPad){
+          margin-top: -35%;
+        }
+      }
+
+      p {
+        width: 80.6803%;
+        margin-left: auto;
+        margin-right: auto;
+        @include breakpoint($device__iPad){
+          margin: 0;
+           width: 95%;
+        }
+
+        @include breakpoint($device__mobile--landscape){
+          margin: 0;
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+
+        }
+
+
+      }
+
+  @include breakpoint($device__mobile--landscape){
+   width: 76.646285%;
+   margin-bottom: 2em;
+  }
+
+}
+
+
+.our-mission__together {
+
+  max-width: 100%;
+  height: auto;
+
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 36%;
+  padding: 10px;
+
+
+      h4 {
+        color: $header__link--green;
+        margin-top: -30%;
+
+        @include breakpoint ($device__iPad){
+          margin-top: -35%;
+        }
+      }
+
+      p {
+        width: 80.6803%;
+        margin-left: auto;
+        margin-right: auto;
+        @include breakpoint($device__iPad){
+          margin: 0;
+          width: 95%;
+        }
+
+        @include breakpoint($device__mobile--landscape){
+          margin: 0;
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+
+        }
+      }
+
+  @include breakpoint($device__mobile--landscape){
+    width: 76.646285%;
+   margin-bottom: 2em;
+  }
+
+}
+
+.our-mission__encourage {
+  max-width: 100%;
+  height: auto;
+
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 36%;
+  padding: 10px;
+
+
+      h4 {
+        color: $header__link--green;
+        margin-top: -30%;
+
+        @include breakpoint ($device__iPad){
+          margin-top: -35%;
+        }
+
+
+      }
+
+      p {
+        width: 80.6803%;
+        margin-left: auto;
+        margin-right: auto;
+        @include breakpoint($device__iPad){
+          margin: 0;
+          width: 95%;
+        }
+
+        @include breakpoint($device__mobile--landscape){
+          margin: 0;
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+
+        }
+      }
+
+  @include breakpoint($device__mobile--landscape){
+   width: 76.646285%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 2em;
+  }
+
+}
+
+.our-mission_img--together {
+
+  z-index: auto;
+  display: flex;
+  justify-content: center;
+
+  width: 93%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.our-mission_img--charities {
+  z-index: auto;
+  display: flex;
+  justify-content: center;
+  width: 93%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+
+.our-mission_img--encourage {
+  z-index: auto;
+  display: flex;
+  justify-content: center;
+  width: 93%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.header-four {
+  color: $header__link--green;
+}
+/* handling Our Members views */
+.our-members__field{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.our-members__comic {
+
+}
+
+.our-members__cancer {
+
+}
+.our-members__kop {
+
+}
+.our-members__compucorp {
+
+}
+
+.our-members__zing{
+
+}
+
+.hr__in-between{
+    border: .5px solid $color__hr-betwwen;
+    width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+
+    @include breakpoint($device__mobile--landscape) {
+      margin-top: 50px;
+    }
+}
+
+
+.footer__span{
+  margin-top: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+    p {
+      color: $color__footer-txt;
+      font-family: $text__family-sans;
+    }
+
+}
+
+.footer__element {
+
+}
+
+.blank__page {
+   position: absolute;
+   z-index: -1;
+   bottom: 0px;
+   height: 200px;
+   width: 100%;
+   background-color:$color__blank-view;
+
+}
+
+.blog__body {
+      hr {
+        border: 1px solid $color__hr;
+      }
+      p {
+         text-align: left;
+         strong {
+          color: $color__font-blog--strong;
+         }
+
+     }
+
+}
+
+.blog__date {
+  padding-top: 1em;
+  padding-bottom: 3em;
+  font-weight: lighter;
+  font-family: $text__family-sans;
+}

@@ -1,0 +1,20 @@
+@import "breakpoint";
+
+#logo {
+float: left;
+padding: 25px 15px 25px 100px; /* LTR */
+position: absolute;
+     img {
+       max-width: 100%;
+       height: auto;
+     }
+   @include breakpoint($device__inter){
+     padding: 25px 15px 25px 70px;
+     position: relative;
+     display: table-footer-group;
+     clear: both;
+
+   }
+
+
+}

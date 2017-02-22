@@ -1,0 +1,29 @@
+.event__date--start {
+  font-weight: bold;
+  font-size: $text__line--gamma;
+  font-family: $text__family-sans;
+  color: $text__colour--event-field;
+
+}
+
+.event__date--labels {
+  color: $event-labels__color;
+  font-weight: bold;
+  font-size: $text__size--headers;
+}
+
+.event__address {
+  padding: 0;
+
+  font-weight: 500;
+    p{
+      font-size: $base__font--small;
+      margin-top: 10px;
+      line-height: 1;
+      text-align: left;
+    }
+}
+.view-event-list {
+  padding-left: 3em;
+
+}
